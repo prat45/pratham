@@ -1,0 +1,358 @@
+
+   
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prathamesh shivekar- web Developer,programmer</title>
+    
+    <script id='_webengage_script_tag' type='text/javascript'>
+                                    var webengage; !function(w,e,b,n,g){function o(e,t){e[t[t.length-1]]=function(){r.__queue.push([t.join("."),arguments])}}var i,s,r=w[b],z=" ",l="init options track screen onReady".split(z),a="feedback survey notification".split(z),c="options render clear abort".split(z),p="Open Close Submit Complete View Click".split(z),u="identify login logout setAttribute".split(z);if(!r||!r.__v){for(w[b]=r={__queue:[],__v:"6.0",user:{}},i=0;i<l.length;i++)o(r,[l[i]]);for(i=0;i<a.length;i++){for(r[a[i]]={},s=0;s<c.length;s++)o(r[a[i]],[a[i],c[s]]);for(s=0;s<p.length;s++)o(r[a[i]],[a[i],"on"+p[s]])}for(i=0;i<u.length;i++)o(r.user,["user",u[i]]);setTimeout(function(){var f=e.createElement("script"),d=e.getElementById("_webengage_script_tag");f.type="text/javascript",f.async=!0,f.src=("https:"==e.location.protocol?"https://ssl.widgets.webengage.com":"http://cdn.widgets.webengage.com")+"/js/webengage-min-v-6.0.js",d.parentNode.insertBefore(f,d)})}}(window,document,"webengage");
+                                    webengage.init('aa1326d6');
+                                    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+     background-color: rgb(223, 217, 217); 
+    /* width: 434px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    /* //for media quary */
+}
+.sidebar nav{
+    padding: 27px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+.container{
+    display: flex;
+    background: url('https://source.unsplash.com/user/erondu/1600x900/?technology,code,program,apple');
+    background-size: cover;
+      background-blend-mode: darken;  
+      /* opacity: 0.3; */
+      z-index: 1;
+     
+}
+.infoContainer{
+    /* background-color: yellowgreen; */
+    height: 58vh;
+     width: 80vw; 
+    margin: 144px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+}
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size:3em;
+    font-weight: bold;
+}
+
+.about{
+    font-size:2.5em;
+}
+
+.moreabout{
+    font-size: 2.2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+.buttons{
+    margin: 34px;
+    font-size: 16px;
+    
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin:  3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 8px 15px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+   background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+   height: 58vh;
+}
+
+/* //contactform */
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    margin:90px;
+    /* //for hamburger */
+}
+.contactform h1{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    /* padding: 12px 0; */
+}
+
+.contactform form  div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form{
+    margin: 0 40px;
+}
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: green;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    
+    flex-direction: row;
+
+    
+}
+#form-check input{
+    width: 25px;
+    margin: 3px 0;
+    
+}
+
+/* blog */
+.blogitem{
+   margin: 20px; 
+   font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer{
+    margin: 10px 90px;
+    /* //for hamburger */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: 'Source Serif Pro', serif;
+}
+.intro{
+    margin: 10px 90px;
+    /* //for hamburger */
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin:  12px;
+}
+.intro p{
+    font-family: 'Source Serif Pro', serif;
+    padding: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+.skill{
+    width: 250px;
+    height: 6px;
+    background-color: tomato;
+    border: 2px solid black;
+   
+}
+.hundred{
+    width: 250px;
+    transition: all 1s ease-out;
+
+}
+.hundred:hover{
+    width: 200px;
+}
+.seventyfive{
+    width: 80px;
+    background-color: hotpink;
+    transition: all 2s ease-out;
+    cursor: pointer;
+}
+.seventyfive:hover{
+    width: 180px;
+    color: tomato;
+}
+.fifty{
+    width: 125px;
+    background-color: rgb(204, 37, 71);
+    transition: all 2s ease-out;
+}
+.fifty:hover{
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.t5{
+    width: 80px;
+    background-color: rgb(95, 153, 29);
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+} 
+.hamburger{
+      position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.cross{
+    margin-left: 160px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1160px) {
+    body {
+      background-color: thistle;
+    }
+    
+    .buttons{
+        font-size: 5px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+         display: none;  
+        
+        
+        
+    }
+    
+   
+    .intro,.blogcontainer,.contactform{
+        margin: 8px;
+       
+       
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebargo">
+        
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" >MyIntro</a></li>
+            <li><a href="#" >Services</a></li>
+              <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="" alt="hamburger icon" width="23" >
+          <img class="cross" src="" alt="cross icon" width="35">
+        </div>
+        <div class="infoContainer">
+          
+            <div class="devInfo">
+                <div class="hello"> Hi I Am </div>
+                <div class="name">Prathamesh shivekar</div>
+                <div class="about">Developer,programmer,sports</div>
+                <div class="moreabout">  I am a Developer, want devloped components as clients required. </div>
+                <div class="buttons">
+                  <a href="#" target="_blank"> <button  class="btn">Download cv</button></a>
+                    
+                  <a href="#"> <button class="btn">Contact Me</button></a>
+                </div>
+            </div>
+            <div class="devPic">
+                <img src="" alt="Prathamesh shivekar">
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        console.log("hey its pratham");
+
+document.querySelector('.cross').style.display='none';
+document.querySelector('.hamburger').addEventListener("click",()=>{
+    document.querySelector('.sidebar').classList.toggle('sidebargo');
+
+    if(document.querySelector('.sidebar').classList.contains('sidebargo')){
+        document.querySelector('.ham').style.display='inline'
+        document.querySelector('.cross').style.display='none'
+    }
+    else{
+        document.querySelector('.ham').style.display='none'
+        setTimeout(() => {
+            document.querySelector('.cross').style.display='inline'
+        }, 300);
+    }
+})
+
+    </script>
+  </body>
+</html>
